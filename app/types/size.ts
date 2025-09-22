@@ -1,5 +1,1 @@
-export interface Size {
-    s: 's',
-    m: 'm',
-    l: 'l'
-};
+export type Size = 's' | 'm' | 'l';

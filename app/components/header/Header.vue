@@ -4,7 +4,7 @@ import type NavHeaderMenu from '@/types/header';
 withDefaults(defineProps<{
     navMenu?: NavHeaderMenu[]
 }>(), {
-	navMenu: []
+	navMenu: () => []
 });
 </script>
 

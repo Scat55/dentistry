@@ -6,7 +6,7 @@ import { UIButton } from '~/components/UI/button';
 withDefaults(defineProps<{
     navMenu?: NavHeaderMenu[]
 }>(), {
-	navMenu: [] as NavHeaderMenu[]
+	navMenu: () => []
 });
 
 const emit = defineEmits<{
