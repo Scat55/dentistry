@@ -1,0 +1,1 @@
+export { default as UITypography } from './ui.vue'
